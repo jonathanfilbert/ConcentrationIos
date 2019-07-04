@@ -12,6 +12,8 @@
 		A567D53022CA78DA00624084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A567D52E22CA78DA00624084 /* Main.storyboard */; };
 		A567D53222CA78DC00624084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A567D53122CA78DC00624084 /* Assets.xcassets */; };
 		A567D53522CA78DC00624084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A567D53322CA78DC00624084 /* LaunchScreen.storyboard */; };
+		A594BFA422CDFCA60056042F /* KonsentrasiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A594BFA322CDFCA60056042F /* KonsentrasiModel.swift */; };
+		A594BFA622CDFFAB0056042F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A594BFA522CDFFAB0056042F /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A567D53122CA78DC00624084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A567D53422CA78DC00624084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A567D53622CA78DC00624084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A594BFA322CDFCA60056042F /* KonsentrasiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonsentrasiModel.swift; sourceTree = "<group>"; };
+		A594BFA522CDFFAB0056042F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				A567D52C22CA78DA00624084 /* ViewController.swift */,
 				A567D52E22CA78DA00624084 /* Main.storyboard */,
 				A567D53622CA78DC00624084 /* Info.plist */,
+				A594BFA322CDFCA60056042F /* KonsentrasiModel.swift */,
+				A594BFA522CDFFAB0056042F /* Card.swift */,
 			);
 			path = Konsentrasi;
 			sourceTree = "<group>";
@@ -143,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A594BFA422CDFCA60056042F /* KonsentrasiModel.swift in Sources */,
 				A567D52D22CA78DA00624084 /* ViewController.swift in Sources */,
 				A567D52B22CA78DA00624084 /* AppDelegate.swift in Sources */,
+				A594BFA622CDFFAB0056042F /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
