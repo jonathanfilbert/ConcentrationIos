@@ -13,21 +13,21 @@ struct Card
     var isFaceUp = false
     var isMatched = false
     var identifier: Int
-//    List of all used identifiers
-    static var identifierList = 0
+    //    List of all used identifiers
+    private static var identifierList = 0
     
-//    Constructor
-    init(){
+    //    Constructor
+    init() {
         self.identifier = Card.getIdentifier()
         self.isMatched = false
         self.isFaceUp = false
     }
-
     
     
-//    Generate a unique ID everytime called
-    static func getIdentifier() -> Int{
-        identifierList+=1
+    
+    //    Generate a unique ID everytime called
+    private static func getIdentifier() -> Int {
+        identifierList += 1
         return identifierList
     }
 }
